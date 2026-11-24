@@ -596,6 +596,10 @@ h3{font-weight:500}
 .dash-head h2{font-size:clamp(28px,3.2vw,38px)}
 .dash-head p{margin-top:8px;color:var(--slate);font-size:17px;max-width:44em}
 .dash{list-style:none;display:grid;gap:28px;padding-bottom:96px}
+.dash.live-site{padding:8px 0 24px;margin:0}
+a.dash-shot{cursor:pointer}
+.live-site .dash-shot .frame{height:auto}
+a.dash-open{text-decoration:none}
 .dash-card{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:36px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--paper)}
 .dash-card:nth-child(even) .dash-shot{order:2}
 .dash-shot{all:unset;cursor:zoom-in;display:block;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--mist);box-shadow:0 18px 40px -24px rgba(9,31,44,.45)}
@@ -679,8 +683,16 @@ h3{font-weight:500}
 <section class="view" data-view="web" style="padding:0" hidden><header class="page-head"><div class="wrap">
   <a class="back" href="#/work">Back to all work</a>
   <h1>Web and platform design</h1>
-  <p>Learning journeys, listing pages, dashboards and banners designed in Figma for the LevelUp partner skilling platform.</p>
-</div></header><div class="wrap"><div class="gallery" data-gallery="web"></div></div></section>
+  <p>A live homepage redesign plus learning journeys, listing pages, dashboards and banners designed in Figma for the LevelUp partner skilling platform.</p>
+</div></header><div class="wrap">
+<ol class="dash live-site" aria-label="Live website design">
+<li class="dash-card">
+<a class="dash-shot" href="levelup-home.html" target="_blank" rel="noopener" aria-label="Open the live LevelUp homepage redesign in a new tab"><span class="dash-bar"><i></i><i></i><i></i><span>skillupwithlevelup.com · Home</span></span><span class="frame"><img loading="lazy" src="levelup-home-thumb.jpg" alt="LevelUp homepage redesign preview"></span></a>
+<div class="dash-copy"><span class="dash-tool">Live website</span><span class="dash-kind">Homepage redesign · LevelUp partner skilling</span><h3>LevelUp Home</h3><p>A fully interactive redesign of the LevelUp homepage for Microsoft partners, built as a working web page rather than a static mockup.</p><ul><li>Hero with live learning progress, badge and overview video cards</li><li>Solution area paths for AI Business Solutions, Azure and Security</li><li>Frontier Transformation Accelerator promo, events, vouchers and trending courses</li><li>Light and dark themes that follow the visitor&rsquo;s device setting</li></ul><div class="dash-stats"><div><b>3</b><span>solution areas</span></div><div><b>9</b><span>content sections</span></div><div><b>2</b><span>colour themes</span></div></div><a class="dash-open" href="levelup-home.html" target="_blank" rel="noopener">Open live page &rarr;</a></div>
+</li>
+</ol>
+<div class="dash-head sec-head" style="margin-top:0"><h2>Platform screens</h2><p>Figma designs for journeys, listings, dashboards and banners. Tap a screen to zoom in.</p></div>
+<div class="gallery" data-gallery="web"></div></div></section>
 <section class="view" data-view="projects" style="padding:0" hidden><header class="page-head"><div class="wrap">
   <a class="back" href="#/work">Back to all work</a>
   <h1>Other projects in FY26–27</h1>
